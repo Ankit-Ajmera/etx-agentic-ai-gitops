@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export GITHUB_PAT=${GITHUB_PAT:-not-a-real-token}
+
 # Check if number of users is provided
 if [ -z "$1" ]; then
     echo "Usage: $0 <number_of_users>"
