@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     path: agent/chart
-    repoURL: 
+    repoURL: https://github.com/Ankit-Ajmera/etx-agentic-ai-gitops.git
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
